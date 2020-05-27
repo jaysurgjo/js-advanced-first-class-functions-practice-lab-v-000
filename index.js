@@ -1,5 +1,5 @@
 const logDriverNames = function (driver){
- 
+
   driver.forEach(function(driver){
      console.log(driver.name)
   })
@@ -33,7 +33,7 @@ const totalRevenue = function(drivers){
 
 }
 const averageRevenue = function(drivers){
-  
+
   return totalRevenue(drivers) / drivers.length
-   
+
 }
